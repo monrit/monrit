@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li, a, .bton {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: #edf0f1;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    background-color: #24252A;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav__links {
+    padding-right: 6rem;
+    padding-top: 15px;
+    list-style: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: alt 0.3s ease 0s;
+}
+
+
+.nav__links li a:hover{
+    color: #0088a9;
+}
+
+
+.bton {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: alt 0.3s ease 0s;
+    margin: 0 10px;
+}
+
+.bton:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.txtwindowleft {
+    float: left;
+    font-size: 18px;
+    color: black;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    width: auto;
+    line-height: 1.6;
+    font-style: normal;
+
+}
+
+p {
+    width: 50%;
+}
+
+h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+.container {
+    padding: 15px;
+    float: right;
+    position: relative;
+    width: 47%;
+    border-width:3px;
+    border-style:solid;
+    border-color:rgba(0, 136, 169, 0.1);
+}
+  
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+  
+.overlay {
+    position: absolute;
+    top: 15px;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    height: auto;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+  
+.container:hover .overlay {
+    opacity: 1;
+}
+  
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.theme {
+    float: right;
+    width: 56%;
+    justify-content: space-between;
+}
+
+.alert {
+    margin-left: 20rem;
+    margin-right: 20rem;
+    padding-left: 1rem;
+}
+
+iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+h4 {
+    padding: 1rem;
+    border: solid #dee2e6 1px;
+}
+
+.divka {
+    margin-top: 1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
